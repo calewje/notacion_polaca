@@ -1,39 +1,29 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicaciones Web Front End</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Desglosada</title>
 </head>
 <body>
-    <div class="container">
-        <form class="row justify-content-center">
-            <div class="col-md-5">
-                <label for="nombre">Nombre</label>
-                <input id="nombre" class="form-control mb-3" type="text">
-                <label for="semestre">Semestr</label>
-                <select class="form-control mb-3" id="semestre">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                </select>
-                <label for="carrera">Carrera</label>
-                <input id="carrera" class="form-control mb-3" type="text">
-                <label for="horas">Horas</label>
-                <input id="horas" class="form-control mb-3" type="text">
-                <button type="button" id="btn_agregar" class="btn btn-primary w-100">Añadir</button>
-            </div>
-            <div class="col-md-5">
-                <p id="contenido" class="lead"></p>
-            </div>
-        </form>
-    </div>  
-    <script src="./controller/index.js"></script>  
+  <div class="container mt-5">
+    <h1 class="text-center"> Calculadora Polaca</h1>
+      <div class="col-12">
+        <div class="card p-4 shadow mt-4">
+          <div class="mb-3"> 
+            <label for="opePolaca" class="form-label">Ingresa una operación</label>
+            <input type="text" class="form-control" id="opePolaca" placeholder="Ejemplo: * 3 + 3 2 separado por espacios" />
+          </div>
+  
+          <input type="text" id="opeNormal" class="form-control mt-2 mb-2" >
+          <input type="text" id="resul" class="form-control " >
+          <button id="btn_almacenar"  class="btn btn-warning mt-4 mb-2 w-100">Almacenar</button>
+
+        </div>
+      </div>
+     
+  </div>
+
+  <script src="./bundle.js"></script>
 </body>
-</html> -->
+</html>
